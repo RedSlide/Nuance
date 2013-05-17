@@ -62,15 +62,16 @@ and (max-width : 600px), only screen and (max-device-width : 600px) {
 .content{background-color:#fff; min-height: 100%; margin: -62px auto -82px;   position:relative; z-index:0; text-align:justify;}
 
 .column-right{padding-left:30px; margin-left:auto; margin-right:0;}
-.column-table{width:100%; display:table; table-layout: fixed; padding-top:60px; padding-bottom:62px; }
+.column-table{width:100%; display:table; table-layout: fixed; padding-top:60px;  }
 
 .content-wide,.content-narrow, .content-fill{display:table-cell; }
 .content-narrow{width:220px;}
 .content-wide{width:440px;}
-
+.content-last {padding-bottom:62px;}
 @media only screen 
 and (max-width : 600px), only screen and (max-device-width : 600px) {
-	.column-table {display:block;padding-bottom:82px;}	
+	.column-table {display:block;}
+	.content-last {padding-bottom:82px;}
 	.content-wide,.content-narrow, .content-fill{display:block; width:100%; padding:0; margin:0;}
 }
 			
