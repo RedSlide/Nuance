@@ -47,7 +47,6 @@ margin-right:0;
 width:100%;
 display:table;
 table-layout:fixed;
-padding-top:60px;
 }
 
 .content-wide,.content-narrow,.content-fill {
@@ -177,6 +176,7 @@ line-height:60px;
 font-size:24px;
 font-weight:400;
 display:inline-block;
+float:left;
 }
 
 body>header a {
