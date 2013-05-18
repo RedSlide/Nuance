@@ -261,11 +261,11 @@ margin-bottom: -82px;	/* Set to -ve height of footer
 @media only screen and (max-width : 600px), only screen and (max-device-width : 600px) {
 	body>header nav {
 	color:#0b0c0c;
-	line-height:60px;
+	line-height:60px;	/* Makes menu big for touch */
 	width:100%;
 	text-align:left;
 	float:left;
-	margin-left:-30px;
+	margin-left:-30px;	/* To undo the effect of .wrapper and go full width */
 	}
 
 	body>header nav ul li {
@@ -278,7 +278,7 @@ margin-bottom: -82px;	/* Set to -ve height of footer
 	}
 
 	body>header nav ul li:last-child {
-	padding-right:30px;
+	padding-right:30px;	/* In horizontal menu, last item has no padding right. */
 	}
 
 	body>header nav a {
