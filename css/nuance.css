@@ -54,7 +54,7 @@ and (max-width : 600px), only screen and (max-device-width : 600px) {
 	body>header nav ul li.current>span {margin-left:0px; margin-right:-30px;  }
 	body>header nav ul li:last-child { padding-right:30px;}
 	
-	body>header nav a {color:#0b0c0c}
+	body>header nav a {color:#0b0c0c; display:block;}
 	body>header nav a:hover {color:#000}
 }
 
